@@ -15,3 +15,5 @@ Ejercicios para trabajar con persistencia de datos.
 ### Persistencia
 
 - [Ejercicio 1 - Tareas](./01_tareas/).
+- [Ejercicio 2 - IMDB](./02_imdb/).
+- [Ejercicio 3 - Records](./03_records/).
