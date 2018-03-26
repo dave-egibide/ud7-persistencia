@@ -28,7 +28,7 @@ public class ImdbTableModel extends AbstractTableModel {
                         if (j == 0 || j >= 6) {
                             if (split[j].equals("")) imdb[i][j] = null;
                             else imdb[i][j] = Double.parseDouble(split[j]);
-                        } else imdb[i][j] = split[j];
+                        } else imdb[i][j] = split[j].replace("\"","");
                     } catch (ArrayStoreException e) {
                         System.err.println("Error at i " + i + " and j " + j);
                     }
